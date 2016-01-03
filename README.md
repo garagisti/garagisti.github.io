@@ -1,0 +1,6 @@
+# garagisti blog
+
+I'm starting a new blog. A blog of all the things i think about...
+Not much more to it than that... 
+
+Blog is built using Jekyll.
