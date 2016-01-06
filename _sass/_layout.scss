@@ -99,6 +99,7 @@
  */
 .site-footer {
     border-top: 1px solid $grey-color-light;
+    background-color: $grey-color-light;
     padding: $spacing-unit 0;
 }
 
@@ -141,6 +142,45 @@
     width:         calc(45% - (#{$spacing-unit} / 2));
 }
 
+.footer-row {
+    text-align: center;
+}
+
+.footer-text {
+
+    font-size: 10px;
+
+}
+
+ul.social-buttons {
+    margin-bottom: 0;
+    margin: 0;
+    padding: 0;
+    padding-bottom: 10px;
+    list-style-type: none;
+}
+ul.social-buttons li a {
+    display: block;
+    /*background-color: #222;*/
+    height: 40px;
+    width: 40px;
+    border-radius: 100%;
+    font-size: 20px;
+    line-height: 40px;
+    color: $grey-color;
+    outline: 1px;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    transition: all .3s
+}
+ul.social-buttons li a:hover,
+ul.social-buttons li a:focus,
+ul.social-buttons li a:active {
+    background-color: #fed136
+}
+
+/* End Footer Styles */
+
 @include media-query($on-laptop) {
     .footer-col-1,
     .footer-col-2 {
@@ -178,8 +218,8 @@
     background-size: cover;
     -o-background-size: cover;
     text-align: center;
-    color: #fff
-
+    color: #fff;
+    border-bottom: 1px solid $grey-color-light;
 }
 
 .intro {
@@ -265,3 +305,13 @@
         }
     }
 }
+
+/**
+ * Blog content Images
+ */
+
+.center-image {
+    margin: 0 auto;
+    display: block;
+}
+
