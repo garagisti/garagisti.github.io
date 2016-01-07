@@ -7,6 +7,15 @@
 
     {% include header.html %}
 
+      {% if page.layout == 'post' %}
+
+    <div class="post-header-content">
+      <div class="wrapper">
+      </div>
+    </div>
+
+    {% else %}
+
     <div class="intro-content">
       <div class="wrapper">
         {% include intro.html %}
@@ -18,6 +27,8 @@
         {% include intro-blurb.html %}
       </div>
     </div>
+
+    {% endif %}
 
     <div class="page-content">
       <div class="wrapper">
