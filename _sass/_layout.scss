@@ -117,6 +117,43 @@ h1.intro {
 }
 
 /**
+ * Intro Blurb
+ **/
+
+.intro-blurb {
+
+    text-align: center;
+}
+
+.intro-blurb h1 {
+
+    font-weight: 300;
+    font-size: 30px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding-bottom: 10px;
+    position: relative;
+}
+
+.intro-blurb h1:before {
+
+    content: "";
+    position: absolute;
+    width: 10%;
+    height: 1px;
+    bottom: 0;
+    left:45%;
+    border-bottom: 1px solid $grey-color;
+
+}
+
+.intro-blurb p {
+
+    padding-top: 10px;
+    letter-spacing: 1px;
+}
+
+/**
  * Site footer
  */
 .site-footer {
