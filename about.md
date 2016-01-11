@@ -4,12 +4,16 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+A couple of obvious things I should clear up first...
 
-You can find the source code for the Jekyll new theme at:
-{% include icon-github.html username="jglovier" %} /
-[jekyll-new](https://github.com/jglovier/jekyll-new)
+What is garagisti?
 
-You can find the source code for Jekyll at
-{% include icon-github.html username="jekyll" %} /
-[jekyll](https://github.com/jekyll/jekyll)
+Why?
+
+I'm no stranger to tech. I worked for a well known tech company once upon a time. But I left to expand my career and ilfe skills.
+
+Today the tech community is different to what it was, and after all is said and done, I just missed tech too much.
+
+There's more to me than tech though. I love my wife and son. I love my F1, I love cricket (all formats) and love to dabble in other ball sports.
+
+Sometimes I love to cook (rainy days are awesome for slow cooked "<insert meat here>" ).

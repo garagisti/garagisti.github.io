@@ -16,7 +16,7 @@
 
     {% else %}
 
-    <div class="intro-content">
+    <div class="intro-splash">
       <div class="wrapper">
         {% include intro.html %}
       </div>
@@ -32,6 +32,10 @@
 
     <div class="page-content">
       <div class="wrapper">
+        {% if page.title == 'About' %}
+          <img src="../assets/blogAvatar.jpg" alt="Rahul 2014" class="center-image">
+        {% endif %}
+
         {{ content }}
       </div>
     </div>
