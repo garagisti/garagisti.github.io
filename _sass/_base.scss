@@ -172,7 +172,11 @@ pre {
     }
 }
 
+.wrapper-post {
 
+    padding-right: ($spacing-unit * 6);
+    padding-left: ($spacing-unit * 6);
+}
 
 /**
  * Clearfix

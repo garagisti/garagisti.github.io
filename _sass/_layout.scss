@@ -129,6 +129,7 @@ div.intro-splash-content {
     background-color: rgba(255,255,255,0.5);
     color: $grey-color;
 
+    font-size: 16px;
     font-family: Baskerville,Baskerville Old Face,Hoefler Text,Garamond,Times New Roman,serif;
 
 }
@@ -271,7 +272,7 @@ ul.social-buttons li a {
 ul.social-buttons li a:hover,
 ul.social-buttons li a:focus,
 ul.social-buttons li a:active {
-    background-color: #fed136
+    background-color: $highlight-color;
 }
 
 /* End Footer Styles */
@@ -327,7 +328,6 @@ ul.social-buttons li a:active {
     display: block;
     font-size: 24px;
 }
-
 
 
 /**
@@ -418,7 +418,14 @@ ul.social-buttons li a:active {
 
 .archive-title {
 
-    color: $text-color;
+    font-size: $base-font-size;
+    color: $highlight-color;
+
+    font-weight: 300;
+    letter-spacing: 0.5px;
+    display: inline-block;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 
 /**
