@@ -2,23 +2,37 @@
 layout: default
 ---
 
-<div class="home">
+<div class="archive">
+{% for post in site.posts %}
+  {% unless post.next %}
 
-  <h1 class="page-heading">Posts</h1>
+    {% unless forloop.first %}</div></div>{% endunless %}
 
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+  <div class="archive-year">
+    <h2>{{ post.date | date: '%Y' }}</h2>
+    <div class="posts-by-year col span_10">
 
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
+    {% else %}
+    {% capture year %}{{ post.date | date: '%Y' }}{% endcapture %}
+    {% capture nyear %}{{ post.next.date | date: '%Y' }}{% endcapture %}
+    {% if year != nyear %}
 
-  <!-- RSS feeds for... if I'm actually popular  -->
-  <!-- <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p> -->
+    {% unless forloop.first %}</div></div>{% endunless %}
 
+  <div class="archive-year">
+    <h2>{{ post.date | date: '%Y' }}</h2>
+    <div class="posts-by-year col span_10">
+    {% endif %}
+  {% endunless %}
+
+  <div class="archive-item">
+    <span class="post-date archive-date">
+      <time datetime="{{ post.date | date: '%Y-%m-%d' }}">{{ post.date | date: "%B %-d, %Y" }}</time>
+    </span>
+    <a href="{{ site.baseurl }}{{ post.url }}" title="{{ post.title }}" class="archive-title">{{ post.title }}</a>
+  </div>
+
+{% if forloop.last %}</div></div>{% endif %}
+
+{% endfor %}
 </div>
