@@ -18,4 +18,4 @@ There's more to me than tech though. I love my wife and son. I love my F1, I lov
 
 Sometimes I love to cook (rainy days are awesome for slow cooked [insert meat here] ).
 
-Anyway, that's a good breakdown. I'm sure i'll continue to add to this over time.
+Anyway, that's a good breakdown. I'm sure I'll continue to add to this over time.
