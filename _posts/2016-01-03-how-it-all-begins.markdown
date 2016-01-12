@@ -24,7 +24,7 @@ I'm sure I have...
 
 So here goes.
 
-If you want to get in touch with me check message me on [Twitter][twitter-garagisti]
+If you want to get in touch, message me on [Twitter][twitter-garagisti]
 
 Cheers, <br>
 garagisti
