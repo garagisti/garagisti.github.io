@@ -7,23 +7,21 @@
 
     {% include header.html %}
 
+    {% if page.title == 'Home' %}
+
     <div class="intro-splash">
       <div class="wrapper">
-      {% if page.layout != post %}
         {% include intro.html %}
-      {% endif %}
       </div>
     </div>
 
     <div class="intro-blurb">
       <div class="wrapper">
-        {% if page.layout != post %}
           {% include intro-blurb.html %}
-        {% endif %}
       </div>
     </div>
 
-
+    {% endif %}
 
     <div class="page-content">
       <div class="wrapper wrapper-post">
