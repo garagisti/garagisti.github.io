@@ -7,14 +7,7 @@
 
     {% include header.html %}
 
-      {% if page.layout == 'post' %}
-
-    <div class="post-header-content">
-      <div class="wrapper">
-      </div>
-    </div>
-
-    {% else %}
+    {% if page.layout != 'post' %}
 
     <div class="intro-splash">
       <div class="wrapper">
