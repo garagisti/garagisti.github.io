@@ -10,7 +10,7 @@ What is garagisti? - Per the definition above - yes it's source is dubious, but 
 
 Why? - Its just something I took inspiration from a long time ago, and it's somehow gaining in relevance...
 
-I'm no stranger to tech. I worked for a well known tech company once upon a time. But I left to expand my career and life skills.
+I'm no stranger to tech. I worked as a J2EE dev for a well known tech company once upon a time. But I left to expand my career and life skills.
 
 Today the tech community is different to what it was, and after all is said and done, I just missed tech too much.
 
