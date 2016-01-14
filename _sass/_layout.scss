@@ -137,8 +137,9 @@ div.intro-splash-content {
     @include media-query($on-laptop) {
 
         /*background-color: blue;*/
-        max-width: -webkit-calc(#{$on-laptop} - (#{$spacing-unit}));
-        max-width:         calc(#{$on-laptop} - (#{$spacing-unit}));
+        background-color: rgba(255,255,255,0.8);
+        max-width: -webkit-calc(#{$on-laptop} - (#{$spacing-unit}*2));
+        max-width:         calc(#{$on-laptop} - (#{$spacing-unit}*2));
         padding-right: $spacing-unit / 2;
         padding-left: $spacing-unit / 2;
 
@@ -148,19 +149,12 @@ div.intro-splash-content {
 
     @include media-query($on-palm) {
         /*background-color: red;*/
-        max-width: -webkit-calc(#{$on-palm} - (#{$spacing-unit}*4));
-        max-width:         calc(#{$on-palm} - (#{$spacing-unit}*4));
+        background-color: rgba(255,255,255,0.8);
+        max-width: -webkit-calc(#{$on-palm} - (#{$spacing-unit}*5));
+        max-width:         calc(#{$on-palm} - (#{$spacing-unit}*5));
 
         padding-right: $spacing-unit / 2;
         padding-left: $spacing-unit / 2;
-    }
-
-    @media only screen
-        and (min-device-width : 320px)
-        and (max-device-width : 480px) {
-        /* STYLES GO HERE */
-        background-color:yellow;
-    }
 
 }
 
