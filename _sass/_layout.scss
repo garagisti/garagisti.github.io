@@ -27,6 +27,7 @@
 .site-nav {
     float: right;
     line-height: 56px;
+    z-index: 999;
 
     .menu-icon {
         display: none;
@@ -111,6 +112,7 @@
     /*color: #fff;*/
     border-bottom: 1px solid $grey-color-light;
     position: relative;
+    z-index: 1;
 }
 
 /**
@@ -151,6 +153,13 @@ div.intro-splash-content {
 
         padding-right: $spacing-unit / 2;
         padding-left: $spacing-unit / 2;
+    }
+
+    @media only screen
+        and (min-device-width : 320px)
+        and (max-device-width : 480px) {
+        /* STYLES GO HERE */
+        background-color:yellow;
     }
 
 }
