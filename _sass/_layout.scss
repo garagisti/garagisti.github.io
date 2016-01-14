@@ -156,6 +156,22 @@ div.intro-splash-content {
         padding-right: $spacing-unit / 2;
         padding-left: $spacing-unit / 2;
     }
+
+    @include media-query($on-iphone5) {
+        max-width: -webkit-calc(#{$on-iphone5} - (#{$spacing-unit}*2));
+        max-width:         calc(#{$on-iphone5} - (#{$spacing-unit}*2));
+
+        padding-right: $spacing-unit / 2;
+        padding-left: $spacing-unit / 2;
+    }
+
+    @include media-query($on-iphone6) {
+        max-width: -webkit-calc(#{$on-iphone6} - (#{$spacing-unit}*2));
+        max-width:         calc(#{$on-iphone6} - (#{$spacing-unit}*2));
+
+        padding-right: $spacing-unit / 2;
+        padding-left: $spacing-unit / 2;
+    }
 }
 
 /**
