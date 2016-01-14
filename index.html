@@ -27,10 +27,10 @@ title: Home
   {% endunless %}
 
   <div class="archive-item">
+    <a href="{{ site.baseurl }}{{ post.url }}" title="{{ post.title }}" class="archive-title">{{ post.title }}</a>
     <span class="post-date archive-date">
       <time datetime="{{ post.date | date: '%Y-%m-%d' }}">{{ post.date | date: "%B %-d, %Y" }}</time>
     </span>
-    <a href="{{ site.baseurl }}{{ post.url }}" title="{{ post.title }}" class="archive-title">{{ post.title }}</a>
   </div>
 
 {% if forloop.last %}</div></div>{% endif %}
