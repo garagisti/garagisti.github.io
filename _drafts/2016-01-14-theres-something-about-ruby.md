@@ -9,7 +9,7 @@ I read an old blog [post][bottled-up-backbone-love-letter] from a friend I look 
 
 The blog post is excellent. A lot of depth and opinion about topics I don't fully appreciate (yet).
 
-But, there are a couple of lines that stand out for me:
+But, while the blog post was  there are a couple of lines that stand out for me:
 
 > Rails is unabashedly an opinionated framework.
 > Many of us Rails developers do what we do because (for the most part) we approve of those opinions.
@@ -24,11 +24,11 @@ So let me go back to the reasons why I chose Rails to develop in.
 
    ...well sort of. Firstly to anybody new to rails a preliminary [point](#point1).
 
-   When I say Rails is fast, its fast in a practical, web-development sense. It lets good web developers get something up and running quickly (in a prototype-ish sense). And the kicker is, most programmers have fun while doing it. I mean, who doesn't like the odd `$ rails generate scaffold` ?
+   When I say Rails is fast, its fast in a practical, web-development sense. It lets good web developers get something up and running, (or modified) quickly. And the kicker is, most programmers have fun while doing it. I mean, who doesn't like the odd `$ rails generate scaffold` ?
 
-    I'm sure some people will point me to benchmarks and tell me technically Ruby is not [fast][is-ruby-fast].
+   I'm sure there will be a labcoat that points me to benchmarks and tell me technically Ruby is not [fast][is-ruby-fast].
 
-   Apart from the technical capability of around 'scaffolding' and generating the relevant model details quickly etc, let's take a real world example. There was an article I read in the paper a while ago about the Mistakes a tech entreprenuer has learnt from. I can't find the link, but in summary:
+   Besides the technical reasons  flexApart from the technical capability of around 'scaffolding' and generating the relevant model details quickly etc, let's take a real world example. There was an article I read in the paper a while ago about the Mistakes a tech entreprenuer has learnt from. I can't find the link, but in summary:
 
   * The strategy of this Tech company is to get customers (who are business owners) to sign up to an app at no cost (the cost passed on to the user of the app).
   * Relevant teams of the Tech company work towards building a business plan (sales teams get 'buy in' from business owners, tech teams build the app accordingly).
