@@ -26,24 +26,21 @@ So let me go back to the reasons why I chose Rails to develop in.
 
    When I say Rails is fast, its fast in a practical, web-development sense. It lets good web developers get something up and running, (or modified) quickly. And the kicker is, most programmers have fun while doing it. I mean, who doesn't like the odd `$ rails generate scaffold` ?
 
-   I'm sure there will be a labcoat that points me to benchmarks and tell me technically Ruby is not [fast][is-ruby-fast].
+   I'm sure there's a lab coat out there who will point me to benchmarks and tell me technically Ruby is not [fast][is-ruby-fast].
 
-   Besides the technical reasons  flexApart from the technical capability of around 'scaffolding' and generating the relevant model details quickly etc, let's take a real world example. There was an article I read in the paper a while ago about the Mistakes a tech entreprenuer has learnt from. I can't find the link, but in summary:
+   Besides the technical reasons, I look to real world scenarios. Often (always?) there's a need to be adaptable in a start up environment. I read about the what happened to [Yumtable][Yumtable-link] and think, my experience has showed me that large companies make similar mistakes.
 
-  * The strategy of this Tech company is to get customers (who are business owners) to sign up to an app at no cost (the cost passed on to the user of the app).
-  * Relevant teams of the Tech company work towards building a business plan (sales teams get 'buy in' from business owners, tech teams build the app accordingly).
-  * The Tech company Leadership team decides that there's higher potential sign ups if the business owners pay to be included in the app (instead of the user at time of use).
-  * The Tech company Leadership team directs the sales team to go back to the business owners, cap in hand and ask them to pay. The Leadership team Directs the tech team to make the relevant updates to the app.
-  * Over half the sales team quits (which turned out to a high percentage of the Tech company).
-  * The tech team were able to make the changes almost immediately...
+   Now, while the Yumtable experience is probably an example of poor sales strategy (and somebody will probably give me similar examples where half the tech team has quit), I'm looking at a real world example of how technology was adaptable, a real enabler.
 
-   Now, while this is probably an example of poor sales strategy (and somebody will probably give me examples where half the tech team quit), but I'm looking at a real world example of how technology can 'enable' higher potential & value.
-
-   The real point I'm trying to make here is that half (or all) the tech team could also have quit... was there something in the framework that make flexibility of the app possible? I choose to believe so.
+   The point I'm trying to make is that I think it's important to be fast in the way Rails is fast. The rails framework, the ruby language, and when used well (i.e. adhering to the the discipline of their idioms), translate to a flexible and fast framework for the real world.
 
 2. It's Open / Free
 
-   With all the hubub behind open sourcing the codebase, some people were ahead of the game (although past performance is not an indicator of future performance of any tech framework...)
+   It's probably a moot point that Open Source frameworks are probably the tool(s) of choice when starting a new tech-venture. Apart from obvious realities of your environment (skills shortages and talent availability) playing a part in making decisions on your choice of software stack.
+
+   What's cool about Rails is the community. The slogan made [ubiquitous][apple-trademark-link] by Apple can be re-applied by Rails ("There's probably a Gem for that")...
+
+   Having said this, judging by the plethora of Open Source Frameworks there's no direct correlation between an open framework and critical mass...
 
 3. Keeping things DRY
 
@@ -57,6 +54,8 @@ So let me go back to the reasons why I chose Rails to develop in.
 7. RESTful API - REST is the best pattern for web applications – organizing your application around resources and standard HTTP verbs is the fastest way to go.
 8. Convention Over Configuration – means that Rails makes assumptions about what you want to do and how you’re going to do it, rather than requiring you to specify every little thing through endless configuration files.
 
+But after all is said and done. Why did I did I chose Rails to develop in? Over and above anything I've said, I owe it to myself.
+
 Footnotes:
 <a id="point1"></a>
   * [Rails][rails-link] is a web application framework. [Ruby][ruby-link] is a programming language. Rails was written in Ruby. When I refer to Rails, I include Ruby (but not vice-versa).
@@ -66,3 +65,5 @@ Footnotes:
 [ruby-link]: https://en.wikipedia.org/wiki/Ruby_(programming_language)
 [dry-link]: https://en.wikipedia.org/wiki/Don%27t_repeat_yourself
 [is-ruby-fast]: http://www.isrubyfastyet.com
+[Yumtable-link]: http://www.smh.com.au/business/startup-war-stories-how-yumtable-almost-died-from-charging-the-wrong-customers-20150524-gh8qmy.htmlw
+[apple-trademark-link]: http://www.trademarkia.com/theres-an-app-for-that-77980556.html
