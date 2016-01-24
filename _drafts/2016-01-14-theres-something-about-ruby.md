@@ -79,6 +79,10 @@ So let me go back to the reasons why I chose Rails to develop in.
         end
         {% endhighlight %}
 
+   This can be simplified in two steps.
+
+   Step 1:
+
 
 
 6. CRUD (Create, Retrieve, Update, Delete)
