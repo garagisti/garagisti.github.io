@@ -174,8 +174,8 @@ pre {
 
 .wrapper-post {
 
-    padding-right: ($spacing-unit * 6);
-    padding-left: ($spacing-unit * 6);
+    padding-right: ($spacing-unit * 5);
+    padding-left: ($spacing-unit * 5);
 
         @include media-query($on-laptop) {
             max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit}));
