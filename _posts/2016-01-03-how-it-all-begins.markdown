@@ -5,7 +5,6 @@ date: 2016-01-03 12:00:03 +1100
 author: Rahul Bose
 ---
 
-
 I dedicate my first ever blog post to my son Lucas and my darling wife (whose name I shall withold from this blog until I recieve the appropriate permission):
 <br>
 

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "There's something about Rails...[Part 2]"
-date: 2016-01-14 20:38:03 +1100
+date: 2016-01-26 20:38:03 +1100
 author: Rahul Bose
 ---
 
