@@ -19,5 +19,5 @@ github_username:  garagisti
 linkedin_username:    rahul-bose-87b6a588 # https://au.linkedin.com/in/rahul-bose-87b6a588
 facebook_username:    bossie82 # https://www.facebook.com/bossie82
 # Build settings
-# markdown: kramdown
-markdown: redcarpet
+markdown: kramdown
+# markdown: redcarpet # Note some css tags won't get picked up in your markdowns
