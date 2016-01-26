@@ -56,7 +56,8 @@ pre {
     padding: 0;
     font-size: inherit;
     color: inherit;
-    white-space: pre-wrap;
+    /*white-space: pre-wrap;*/
+    white-space: pre;
     background-color: transparent;
     border-radius: 0;
   }
@@ -66,4 +67,19 @@ pre {
 .pre-scrollable {
   max-height: $pre-scrollable-max-height;
   overflow-y: scroll;
+}
+
+// enable side scrolling
+// -- selector prefixed to the wrapper div for collision prevention
+
+.highlight pre code * {
+  white-space: nowrap;    // this sets all children inside to nowrap
+}
+
+.highlight pre {
+  overflow-x: auto;       // this sets the scrolling in x
+}
+
+.highlight pre code {
+  white-space: pre;       // forces <code> to respect <pre> formatting
 }
