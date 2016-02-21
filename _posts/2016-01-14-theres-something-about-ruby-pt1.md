@@ -3,6 +3,7 @@ layout: post
 title: "There's something about Rails...[Part 1]"
 date: 2016-01-14 20:38:03 +1100
 author: Rahul Bose
+comments: true
 ---
 
 This is a 2 part series of posts that outlines the reasons I like Rails.
