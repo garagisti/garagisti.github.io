@@ -9,7 +9,7 @@ comments: true
 What?
 =====
 
-So I work in a company that, at its core, moves boxes. Put **really** simply, this means box-in, box-store, box-out style of company, similar to say Amazon, without the innovation part. Oh and there's a Private Equity company sitting on top of it all.
+So I work in a company that, at its core, moves boxes. Put **really** simply, this means box-in, box-store, box-out style of company, similar to say Amazon. Oh and there's a Private Equity company sitting on top of it all.
 
 On a geographical map, the box in, box out paradigm works as a handful of Central Distribution centers (the parent if you will) with satellite branches (the child in a parent-child type relationship) to expand the delivery footprint. Each of these satellite branch structures has quite a hierarchical management structure through to a single branch manager. To assist the branch manager, there are several teams responsible for completing various tasks affiliated with Box in, Box store and Box out steps.
 
