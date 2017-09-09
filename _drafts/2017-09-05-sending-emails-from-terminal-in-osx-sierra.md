@@ -16,4 +16,9 @@ This blog is an outline about how to send emails using terminal. There's obvious
 
 For now, let's just focus on sending emails.
 
-Basically, we will be using a pre-established gmail account to act as the sever to send emails.
+Basically, we will be using a postfix, which is the service used by mail, to send an email via a pre-established gmail account (although it could easily be your ISP) to act as the sever to send emails. You may need root access to create / edit files under postfix.
+
+
+**Step 1:**
+Edit the main.cf file under /etc/postfix
+'$ cd /etc/postfix'
